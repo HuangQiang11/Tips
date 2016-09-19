@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C16CB511D8E29440013380A /* SelectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C16CB501D8E29440013380A /* SelectModel.m */; };
+		8C944BBF1D8924BA00C486A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C944BBE1D8924BA00C486A2 /* main.m */; };
+		8C944BC21D8924BA00C486A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C944BC11D8924BA00C486A2 /* AppDelegate.m */; };
+		8C944BC51D8924BA00C486A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C944BC41D8924BA00C486A2 /* ViewController.m */; };
+		8C944BC81D8924BA00C486A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C944BC61D8924BA00C486A2 /* Main.storyboard */; };
+		8C944BCA1D8924BA00C486A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C944BC91D8924BA00C486A2 /* Assets.xcassets */; };
+		8C944BCD1D8924BA00C486A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C944BCB1D8924BA00C486A2 /* LaunchScreen.storyboard */; };
+		8C944BD81D8924BB00C486A2 /* HQTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C944BD71D8924BB00C486A2 /* HQTextFieldTests.m */; };
+		8C944BE31D8924BB00C486A2 /* HQTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C944BE21D8924BB00C486A2 /* HQTextFieldUITests.m */; };
+		8C944BF31D89278F00C486A2 /* HQTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C944BF21D89278F00C486A2 /* HQTextField.m */; };
+		8C944BF61D89288800C486A2 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C944BF51D89288800C486A2 /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C944BD41D8924BB00C486A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C944BB21D8924BA00C486A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C944BB91D8924BA00C486A2;
+			remoteInfo = HQTextField;
+		};
+		8C944BDF1D8924BB00C486A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C944BB21D8924BA00C486A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C944BB91D8924BA00C486A2;
+			remoteInfo = HQTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C16CB4F1D8E29440013380A /* SelectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectModel.h; sourceTree = "<group>"; };
+		8C16CB501D8E29440013380A /* SelectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectModel.m; sourceTree = "<group>"; };
+		8C944BBA1D8924BA00C486A2 /* HQTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C944BBE1D8924BA00C486A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C944BC01D8924BA00C486A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C944BC11D8924BA00C486A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C944BC31D8924BA00C486A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8C944BC41D8924BA00C486A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C944BC71D8924BA00C486A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C944BC91D8924BA00C486A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C944BCC1D8924BA00C486A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C944BCE1D8924BA00C486A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C944BD31D8924BB00C486A2 /* HQTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C944BD71D8924BB00C486A2 /* HQTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQTextFieldTests.m; sourceTree = "<group>"; };
+		8C944BD91D8924BB00C486A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C944BDE1D8924BB00C486A2 /* HQTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C944BE21D8924BB00C486A2 /* HQTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQTextFieldUITests.m; sourceTree = "<group>"; };
+		8C944BE41D8924BB00C486A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C944BF11D89278F00C486A2 /* HQTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQTextField.h; sourceTree = "<group>"; };
+		8C944BF21D89278F00C486A2 /* HQTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQTextField.m; sourceTree = "<group>"; };
+		8C944BF41D89288800C486A2 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		8C944BF51D89288800C486A2 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C944BB71D8924BA00C486A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C944BD01D8924BB00C486A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C944BDB1D8924BB00C486A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C944BB11D8924BA00C486A2 = {
+			isa = PBXGroup;
+			children = (
+				8C944BBC1D8924BA00C486A2 /* HQTextField */,
+				8C944BD61D8924BB00C486A2 /* HQTextFieldTests */,
+				8C944BE11D8924BB00C486A2 /* HQTextFieldUITests */,
+				8C944BBB1D8924BA00C486A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C944BBB1D8924BA00C486A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C944BBA1D8924BA00C486A2 /* HQTextField.app */,
+				8C944BD31D8924BB00C486A2 /* HQTextFieldTests.xctest */,
+				8C944BDE1D8924BB00C486A2 /* HQTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C944BBC1D8924BA00C486A2 /* HQTextField */ = {
+			isa = PBXGroup;
+			children = (
+				8C944BF01D89276E00C486A2 /* HQTextField */,
+				8C944BC01D8924BA00C486A2 /* AppDelegate.h */,
+				8C944BC11D8924BA00C486A2 /* AppDelegate.m */,
+				8C944BC31D8924BA00C486A2 /* ViewController.h */,
+				8C944BC41D8924BA00C486A2 /* ViewController.m */,
+				8C944BF41D89288800C486A2 /* TestViewController.h */,
+				8C944BF51D89288800C486A2 /* TestViewController.m */,
+				8C944BC61D8924BA00C486A2 /* Main.storyboard */,
+				8C944BC91D8924BA00C486A2 /* Assets.xcassets */,
+				8C944BCB1D8924BA00C486A2 /* LaunchScreen.storyboard */,
+				8C944BCE1D8924BA00C486A2 /* Info.plist */,
+				8C944BBD1D8924BA00C486A2 /* Supporting Files */,
+			);
+			path = HQTextField;
+			sourceTree = "<group>";
+		};
+		8C944BBD1D8924BA00C486A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C944BBE1D8924BA00C486A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C944BD61D8924BB00C486A2 /* HQTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C944BD71D8924BB00C486A2 /* HQTextFieldTests.m */,
+				8C944BD91D8924BB00C486A2 /* Info.plist */,
+			);
+			path = HQTextFieldTests;
+			sourceTree = "<group>";
+		};
+		8C944BE11D8924BB00C486A2 /* HQTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C944BE21D8924BB00C486A2 /* HQTextFieldUITests.m */,
+				8C944BE41D8924BB00C486A2 /* Info.plist */,
+			);
+			path = HQTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		8C944BF01D89276E00C486A2 /* HQTextField */ = {
+			isa = PBXGroup;
+			children = (
+				8C944BF11D89278F00C486A2 /* HQTextField.h */,
+				8C944BF21D89278F00C486A2 /* HQTextField.m */,
+				8C16CB4F1D8E29440013380A /* SelectModel.h */,
+				8C16CB501D8E29440013380A /* SelectModel.m */,
+			);
+			path = HQTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C944BB91D8924BA00C486A2 /* HQTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C944BE71D8924BB00C486A2 /* Build configuration list for PBXNativeTarget "HQTextField" */;
+			buildPhases = (
+				8C944BB61D8924BA00C486A2 /* Sources */,
+				8C944BB71D8924BA00C486A2 /* Frameworks */,
+				8C944BB81D8924BA00C486A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HQTextField;
+			productName = HQTextField;
+			productReference = 8C944BBA1D8924BA00C486A2 /* HQTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C944BD21D8924BB00C486A2 /* HQTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C944BEA1D8924BB00C486A2 /* Build configuration list for PBXNativeTarget "HQTextFieldTests" */;
+			buildPhases = (
+				8C944BCF1D8924BB00C486A2 /* Sources */,
+				8C944BD01D8924BB00C486A2 /* Frameworks */,
+				8C944BD11D8924BB00C486A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C944BD51D8924BB00C486A2 /* PBXTargetDependency */,
+			);
+			name = HQTextFieldTests;
+			productName = HQTextFieldTests;
+			productReference = 8C944BD31D8924BB00C486A2 /* HQTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C944BDD1D8924BB00C486A2 /* HQTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C944BED1D8924BB00C486A2 /* Build configuration list for PBXNativeTarget "HQTextFieldUITests" */;
+			buildPhases = (
+				8C944BDA1D8924BB00C486A2 /* Sources */,
+				8C944BDB1D8924BB00C486A2 /* Frameworks */,
+				8C944BDC1D8924BB00C486A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C944BE01D8924BB00C486A2 /* PBXTargetDependency */,
+			);
+			name = HQTextFieldUITests;
+			productName = HQTextFieldUITests;
+			productReference = 8C944BDE1D8924BB00C486A2 /* HQTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C944BB21D8924BA00C486A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = huangqiang;
+				TargetAttributes = {
+					8C944BB91D8924BA00C486A2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					8C944BD21D8924BB00C486A2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 8C944BB91D8924BA00C486A2;
+					};
+					8C944BDD1D8924BB00C486A2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 8C944BB91D8924BA00C486A2;
+					};
+				};
+			};
+			buildConfigurationList = 8C944BB51D8924BA00C486A2 /* Build configuration list for PBXProject "HQTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C944BB11D8924BA00C486A2;
+			productRefGroup = 8C944BBB1D8924BA00C486A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C944BB91D8924BA00C486A2 /* HQTextField */,
+				8C944BD21D8924BB00C486A2 /* HQTextFieldTests */,
+				8C944BDD1D8924BB00C486A2 /* HQTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C944BB81D8924BA00C486A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C944BCD1D8924BA00C486A2 /* LaunchScreen.storyboard in Resources */,
+				8C944BCA1D8924BA00C486A2 /* Assets.xcassets in Resources */,
+				8C944BC81D8924BA00C486A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C944BD11D8924BB00C486A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C944BDC1D8924BB00C486A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C944BB61D8924BA00C486A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C944BC51D8924BA00C486A2 /* ViewController.m in Sources */,
+				8C944BC21D8924BA00C486A2 /* AppDelegate.m in Sources */,
+				8C944BF31D89278F00C486A2 /* HQTextField.m in Sources */,
+				8C944BBF1D8924BA00C486A2 /* main.m in Sources */,
+				8C944BF61D89288800C486A2 /* TestViewController.m in Sources */,
+				8C16CB511D8E29440013380A /* SelectModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C944BCF1D8924BB00C486A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C944BD81D8924BB00C486A2 /* HQTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C944BDA1D8924BB00C486A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C944BE31D8924BB00C486A2 /* HQTextFieldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C944BD51D8924BB00C486A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C944BB91D8924BA00C486A2 /* HQTextField */;
+			targetProxy = 8C944BD41D8924BB00C486A2 /* PBXContainerItemProxy */;
+		};
+		8C944BE01D8924BB00C486A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C944BB91D8924BA00C486A2 /* HQTextField */;
+			targetProxy = 8C944BDF1D8924BB00C486A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C944BC61D8924BA00C486A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C944BC71D8924BA00C486A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C944BCB1D8924BA00C486A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C944BCC1D8924BA00C486A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C944BE51D8924BB00C486A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C944BE61D8924BB00C486A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C944BE81D8924BB00C486A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HQTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendtou.HQTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C944BE91D8924BB00C486A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HQTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendtou.HQTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C944BEB1D8924BB00C486A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HQTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendtou.HQTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HQTextField.app/HQTextField";
+			};
+			name = Debug;
+		};
+		8C944BEC1D8924BB00C486A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HQTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendtou.HQTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HQTextField.app/HQTextField";
+			};
+			name = Release;
+		};
+		8C944BEE1D8924BB00C486A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HQTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendtou.HQTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HQTextField;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8C944BEF1D8924BB00C486A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HQTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendtou.HQTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HQTextField;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C944BB51D8924BA00C486A2 /* Build configuration list for PBXProject "HQTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C944BE51D8924BB00C486A2 /* Debug */,
+				8C944BE61D8924BB00C486A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C944BE71D8924BB00C486A2 /* Build configuration list for PBXNativeTarget "HQTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C944BE81D8924BB00C486A2 /* Debug */,
+				8C944BE91D8924BB00C486A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C944BEA1D8924BB00C486A2 /* Build configuration list for PBXNativeTarget "HQTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C944BEB1D8924BB00C486A2 /* Debug */,
+				8C944BEC1D8924BB00C486A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C944BED1D8924BB00C486A2 /* Build configuration list for PBXNativeTarget "HQTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C944BEE1D8924BB00C486A2 /* Debug */,
+				8C944BEF1D8924BB00C486A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C944BB21D8924BA00C486A2 /* Project object */;
+}
