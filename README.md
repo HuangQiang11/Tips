@@ -7,3 +7,5 @@
 ## SystemNavigationBarChangeColorDemo<br>
 切换系统NavigationBar的背景颜色<br>
 效果如下：<br>
+![image](https://github.com/HuangQiang11/Tips/blob/master/SystemNavigationBarChangeColorDemo/Images/dome.gif)
+
