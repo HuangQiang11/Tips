@@ -5,4 +5,4 @@ HQTextField样式有如下：
 
 实例之一如下：
 
-![image](https://github.com/HuangQiang11/Tips/blob/master/HQTextField/Images/mode.png)
+![image](https://github.com/HuangQiang11/Tips/blob/master/HQTextField/Images/dome.png)
