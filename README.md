@@ -8,12 +8,12 @@
 
 ## SystemNavigationBarChangeColorDemo<br>
 
-切换系统NavigationBar的背景颜色<br>
+切换界面时，更改系统NavigationBar的背景颜色<br>
 效果如下：<br>
 ![image](https://github.com/HuangQiang11/Tips/blob/master/SystemNavigationBarChangeColorDemo/Images/dome.gif)
 
 ## CartAnmation<br>
 
 效果如下：<br>
-![image](https://github.com/HuangQiang11/Tips/blob/master/CartAnmation/Images/IAdLl25DfY.gif)
+![image](https://github.com/HuangQiang11/Tips/blob/master/CartAnmation/Images/1EHd5EDDXp.gif)
 
