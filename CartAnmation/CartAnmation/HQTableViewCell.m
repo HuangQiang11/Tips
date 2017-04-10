@@ -14,6 +14,11 @@
 + (HQTableViewCell *)tableViewCellWith:(UITableView *)tableView indexPath:(NSIndexPath *)indexPath identifier:(NSString *)indentifier target:(id)target action:(SEL)action{
     HQTableViewCell * cell = (HQTableViewCell *)[tableView dequeueReusableCellWithIdentifier:indentifier];
     cell.button.tag = indexPath.row;
+    if (indexPath.row%2 == 1) {
+        [cell.button setImage:[UIImage imageNamed:@"1.jpg"] forState:UIControlStateNormal];
+    }else{
+        [cell.button setImage:[UIImage imageNamed:@"2.jpg"] forState:UIControlStateNormal];
+    }
     [cell.button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     return cell;
 }

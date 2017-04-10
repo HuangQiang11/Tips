@@ -14,8 +14,17 @@
 		8CC22C411CECCB9C00D19C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CC22C401CECCB9C00D19C4D /* Assets.xcassets */; };
 		8CC22C441CECCB9C00D19C4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC22C421CECCB9C00D19C4D /* LaunchScreen.storyboard */; };
 		8CC22C4D1CECCCDA00D19C4D /* HQTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC22C4C1CECCCDA00D19C4D /* HQTableViewCell.m */; };
-		8CC22C501CECCF4700D19C4D /* HQCartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC22C4F1CECCF4700D19C4D /* HQCartView.m */; };
 		8CC22C521CECDFF300D19C4D /* meizi.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CC22C511CECDFF300D19C4D /* meizi.png */; };
+		8CEC4AC61E9B23B600466C63 /* Type1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEC4AC51E9B23B600466C63 /* Type1Controller.m */; };
+		8CEC4AC91E9B23C600466C63 /* Type2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEC4AC81E9B23C600466C63 /* Type2Controller.m */; };
+		8CEC4ACB1E9B265000466C63 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CEC4ACA1E9B265000466C63 /* 1.jpg */; };
+		8CEC4ACD1E9B265300466C63 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CEC4ACC1E9B265300466C63 /* 2.jpg */; };
+		8CEC4ACF1E9B26A900466C63 /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8CEC4ACE1E9B26A900466C63 /* timg.jpeg */; };
+		8CEC4AD21E9B2A8D00466C63 /* HQCartAnimationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEC4AD11E9B2A8D00466C63 /* HQCartAnimationTool.m */; };
+		8CEC4AD71E9B622B00466C63 /* shopping-cart_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CEC4AD31E9B622B00466C63 /* shopping-cart_background@2x.png */; };
+		8CEC4AD81E9B622B00466C63 /* shopping-cart_background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CEC4AD41E9B622B00466C63 /* shopping-cart_background@3x.png */; };
+		8CEC4AD91E9B622B00466C63 /* shopping-cart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CEC4AD51E9B622B00466C63 /* shopping-cart@2x.png */; };
+		8CEC4ADA1E9B622B00466C63 /* shopping-cart@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CEC4AD61E9B622B00466C63 /* shopping-cart@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +40,20 @@
 		8CC22C451CECCB9C00D19C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CC22C4B1CECCCDA00D19C4D /* HQTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQTableViewCell.h; sourceTree = "<group>"; };
 		8CC22C4C1CECCCDA00D19C4D /* HQTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQTableViewCell.m; sourceTree = "<group>"; };
-		8CC22C4E1CECCF4700D19C4D /* HQCartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQCartView.h; sourceTree = "<group>"; };
-		8CC22C4F1CECCF4700D19C4D /* HQCartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQCartView.m; sourceTree = "<group>"; };
 		8CC22C511CECDFF300D19C4D /* meizi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meizi.png; sourceTree = "<group>"; };
+		8CEC4AC41E9B23B600466C63 /* Type1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type1Controller.h; sourceTree = "<group>"; };
+		8CEC4AC51E9B23B600466C63 /* Type1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type1Controller.m; sourceTree = "<group>"; };
+		8CEC4AC71E9B23C600466C63 /* Type2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type2Controller.h; sourceTree = "<group>"; };
+		8CEC4AC81E9B23C600466C63 /* Type2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type2Controller.m; sourceTree = "<group>"; };
+		8CEC4ACA1E9B265000466C63 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		8CEC4ACC1E9B265300466C63 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		8CEC4ACE1E9B26A900466C63 /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
+		8CEC4AD01E9B2A8D00466C63 /* HQCartAnimationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQCartAnimationTool.h; sourceTree = "<group>"; };
+		8CEC4AD11E9B2A8D00466C63 /* HQCartAnimationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQCartAnimationTool.m; sourceTree = "<group>"; };
+		8CEC4AD31E9B622B00466C63 /* shopping-cart_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopping-cart_background@2x.png"; sourceTree = "<group>"; };
+		8CEC4AD41E9B622B00466C63 /* shopping-cart_background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopping-cart_background@3x.png"; sourceTree = "<group>"; };
+		8CEC4AD51E9B622B00466C63 /* shopping-cart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopping-cart@2x.png"; sourceTree = "<group>"; };
+		8CEC4AD61E9B622B00466C63 /* shopping-cart@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopping-cart@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,11 +89,22 @@
 				8CC22C531CECFF2600D19C4D /* HQCartView */,
 				8CC22C371CECCB9C00D19C4D /* AppDelegate.h */,
 				8CC22C381CECCB9C00D19C4D /* AppDelegate.m */,
+				8CEC4AC41E9B23B600466C63 /* Type1Controller.h */,
+				8CEC4AC51E9B23B600466C63 /* Type1Controller.m */,
+				8CEC4AC71E9B23C600466C63 /* Type2Controller.h */,
+				8CEC4AC81E9B23C600466C63 /* Type2Controller.m */,
 				8CC22C3A1CECCB9C00D19C4D /* ViewController.h */,
 				8CC22C3B1CECCB9C00D19C4D /* ViewController.m */,
 				8CC22C4B1CECCCDA00D19C4D /* HQTableViewCell.h */,
 				8CC22C4C1CECCCDA00D19C4D /* HQTableViewCell.m */,
+				8CEC4AD31E9B622B00466C63 /* shopping-cart_background@2x.png */,
+				8CEC4AD41E9B622B00466C63 /* shopping-cart_background@3x.png */,
+				8CEC4AD51E9B622B00466C63 /* shopping-cart@2x.png */,
+				8CEC4AD61E9B622B00466C63 /* shopping-cart@3x.png */,
 				8CC22C511CECDFF300D19C4D /* meizi.png */,
+				8CEC4ACC1E9B265300466C63 /* 2.jpg */,
+				8CEC4ACE1E9B26A900466C63 /* timg.jpeg */,
+				8CEC4ACA1E9B265000466C63 /* 1.jpg */,
 				8CC22C3D1CECCB9C00D19C4D /* Main.storyboard */,
 				8CC22C401CECCB9C00D19C4D /* Assets.xcassets */,
 				8CC22C421CECCB9C00D19C4D /* LaunchScreen.storyboard */,
@@ -94,8 +125,8 @@
 		8CC22C531CECFF2600D19C4D /* HQCartView */ = {
 			isa = PBXGroup;
 			children = (
-				8CC22C4E1CECCF4700D19C4D /* HQCartView.h */,
-				8CC22C4F1CECCF4700D19C4D /* HQCartView.m */,
+				8CEC4AD01E9B2A8D00466C63 /* HQCartAnimationTool.h */,
+				8CEC4AD11E9B2A8D00466C63 /* HQCartAnimationTool.m */,
 			);
 			name = HQCartView;
 			sourceTree = "<group>";
@@ -158,10 +189,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CEC4ACD1E9B265300466C63 /* 2.jpg in Resources */,
+				8CEC4ACF1E9B26A900466C63 /* timg.jpeg in Resources */,
+				8CEC4ADA1E9B622B00466C63 /* shopping-cart@3x.png in Resources */,
+				8CEC4AD91E9B622B00466C63 /* shopping-cart@2x.png in Resources */,
+				8CEC4AD71E9B622B00466C63 /* shopping-cart_background@2x.png in Resources */,
 				8CC22C441CECCB9C00D19C4D /* LaunchScreen.storyboard in Resources */,
 				8CC22C411CECCB9C00D19C4D /* Assets.xcassets in Resources */,
 				8CC22C521CECDFF300D19C4D /* meizi.png in Resources */,
 				8CC22C3F1CECCB9C00D19C4D /* Main.storyboard in Resources */,
+				8CEC4AD81E9B622B00466C63 /* shopping-cart_background@3x.png in Resources */,
+				8CEC4ACB1E9B265000466C63 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,8 +211,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CC22C3C1CECCB9C00D19C4D /* ViewController.m in Sources */,
+				8CEC4AD21E9B2A8D00466C63 /* HQCartAnimationTool.m in Sources */,
+				8CEC4AC61E9B23B600466C63 /* Type1Controller.m in Sources */,
+				8CEC4AC91E9B23C600466C63 /* Type2Controller.m in Sources */,
 				8CC22C4D1CECCCDA00D19C4D /* HQTableViewCell.m in Sources */,
-				8CC22C501CECCF4700D19C4D /* HQCartView.m in Sources */,
 				8CC22C391CECCB9C00D19C4D /* AppDelegate.m in Sources */,
 				8CC22C361CECCB9C00D19C4D /* main.m in Sources */,
 			);
