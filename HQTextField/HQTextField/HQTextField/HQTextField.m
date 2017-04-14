@@ -41,12 +41,14 @@
 
 #pragma mark common method
 + (HQTextField *)textFieldWithTitle:(NSString *)title placeholder:(NSString *)placeholder style:(LayoutStyle)style frame:(CGRect)rect{
-    HQTextField * TF= [[HQTextField alloc] init];
-    TF.frame = rect;
-    TF.textField.placeholder = placeholder;
-    TF.style = style;
-    TF.titleLabel.text = title;
-    return TF;
+    return ({
+        HQTextField * TF= [[HQTextField alloc] init];
+        TF.frame = rect;
+        TF.textField.placeholder = placeholder;
+        TF.style = style;
+        TF.titleLabel.text = title;
+        TF;
+    });
 }
 
 - (void)startTimer{
@@ -212,20 +214,25 @@
     NSArray * arr = [self.selectDelegate TextFieldSelectArr];
     for (int i = 0; i<arr.count; i++) {
         SelectModel * model = arr[i];
-        UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
-        [button setImage:[UIImage imageNamed:model.tipName] forState:UIControlStateNormal];
-        [button setTitle:model.titleName forState:UIControlStateNormal];
-        [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-        button.tag = i+10;
-        button.titleLabel.font = [UIFont systemFontOfSize:14];
-        button.userInteractionEnabled = NO;
+        UIButton * button = ({
+            UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
+            [button setImage:[UIImage imageNamed:model.tipName] forState:UIControlStateNormal];
+            [button setTitle:model.titleName forState:UIControlStateNormal];
+            [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+            button.tag = i+10;
+            button.titleLabel.font = [UIFont systemFontOfSize:14];
+            button.userInteractionEnabled = NO;
+            button;
+        });
+        UIButton * selectButton = ({
+            UIButton * selectButton = [UIButton buttonWithType:UIButtonTypeCustom];
+            [selectButton setImage:[UIImage imageNamed:@"choose"] forState:UIControlStateNormal];
+            [selectButton setImage:[UIImage imageNamed:@"choose_sel"] forState:UIControlStateSelected];
+            selectButton.tag = i+100;
+            [selectButton addTarget:self action:@selector(selectButtonAction:) forControlEvents:UIControlEventTouchUpInside];
+            selectButton;
+        });
         [self addSubview:button];
-        
-        UIButton * selectButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        [selectButton setImage:[UIImage imageNamed:@"choose"] forState:UIControlStateNormal];
-        [selectButton setImage:[UIImage imageNamed:@"choose_sel"] forState:UIControlStateSelected];
-        selectButton.tag = i+100;
-        [selectButton addTarget:self action:@selector(selectButtonAction:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:selectButton];
     }
     [self selectButtonAction:[self viewWithTag:100]];

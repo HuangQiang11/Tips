@@ -62,14 +62,20 @@
 
 #pragma mark HQTextFieldSelectStyleDelegate
 - (NSArray<SelectModel *> *)TextFieldSelectArr{
-    SelectModel * model1 = [SelectModel new];
-    model1.tipName = @"支付宝";
-    model1.titleName = @"支付宝";
-    model1.buttonW = 65;
-    SelectModel * model2 = [SelectModel new];
-    model2.tipName = @"微信";
-    model2.titleName = @"微信";
-    model2.buttonW = 60;
+    SelectModel * model1 = ({
+        SelectModel * model1 = [SelectModel new];
+        model1.tipName = @"支付宝";
+        model1.titleName = @"支付宝";
+        model1.buttonW = 65;
+        model1;
+    });
+    SelectModel * model2 = ({
+        SelectModel * model2 = [SelectModel new];
+        model2.tipName = @"微信";
+        model2.titleName = @"微信";
+        model2.buttonW = 60;
+        model2;
+    });
     return @[model1,model2];
 }
 

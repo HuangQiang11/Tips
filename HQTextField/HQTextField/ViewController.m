@@ -20,11 +20,13 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationItem.title = @"Main";
-    
-    _mainTableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
-    _mainTableView.delegate = self;
-    _mainTableView.dataSource = self;
-    _mainTableView.tableFooterView = [UIView new];
+    _mainTableView = ({
+        UITableView *mainTableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+        mainTableView.delegate = self;
+        mainTableView.dataSource = self;
+        mainTableView.tableFooterView = [UIView new];
+        mainTableView;
+    });
     [self.view addSubview:_mainTableView];
     
     self.dataArr = @[@"NoTitleStyle",@"ButtonStyle",@"SelectStyle",@"PhoneTitleStyle",@"NormalTitleStyle",@"NoTitleAndVerifyStyle",@"NormalTitleAndVerifyStyle",@"NormalTitleAndMoneyTipStyle"];
@@ -47,9 +49,11 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    TestViewController * testVC = [TestViewController new];
-    testVC.style = indexPath.row;
-    [self.navigationController pushViewController:testVC animated:YES];
+    [self.navigationController pushViewController:({
+        TestViewController * testVC = [TestViewController new];
+        testVC.style = indexPath.row;
+        testVC;
+    }) animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
