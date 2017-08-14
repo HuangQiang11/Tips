@@ -1,4 +1,8 @@
 # Tips<br>
+##HQSearchController
+效果如下：<br>
+![image](https://github.com/HuangQiang11/Tips/blob/master/HQSearchController/images/4qsHlcZak2.gif)<br>
+
 ## HQTextField<br>
 
 样式有如下：<br>
