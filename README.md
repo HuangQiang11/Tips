@@ -1,5 +1,5 @@
 # Tips<br>
-##HQSearchController
+##HQSearchController<br>
 适用自定义navigationBar和系统navigationBar的SearchController
 参考了大神的demo<JKRCustomSearchController>
 效果如下：<br>
