@@ -1,7 +1,7 @@
 # Tips<br>
 ## HQSearchController<br>
-### 适用自定义navigationBar和系统navigationBar的SearchController<br>
-参考了大神的JKRCustomSearchController<br>
+### 适用自定义、原生的navigationBar的SearchController<br><br>
+#### 参考了大神的JKRCustomSearchController<br>
 效果如下：<br>
 ![image](https://github.com/HuangQiang11/Tips/blob/master/HQSearchController/images/4qsHlcZak2.gif)<br>
 
