@@ -10,7 +10,7 @@
 
 @implementation UINavigationController (HQStatusBar)
 - (UIViewController *)childViewControllerForStatusBarStyle {
-    return self.childViewControllers.firstObject;
+    return self.childViewControllers.lastObject;
 }
 
 @end
